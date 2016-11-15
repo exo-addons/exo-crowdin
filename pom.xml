@@ -45,7 +45,7 @@
   </scm>
   <properties>
     <!-- Platform Project Dependencies -->
-    <org.exoplatform.platform.version>4.4.x-SNAPSHOT</org.exoplatform.platform.version>
+    <org.exoplatform.platform.version>4.4.0-M23</org.exoplatform.platform.version>
   </properties>
 
   <dependencyManagement>
