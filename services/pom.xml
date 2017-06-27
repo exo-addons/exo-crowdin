@@ -23,11 +23,11 @@
   <parent>
     <artifactId>crowdin-addon</artifactId>
     <groupId>org.exoplatform.addons.crowdin</groupId>
-    <version>1.0.x-SNAPSHOT</version>
+    <version>5.0.x-SNAPSHOT</version>
   </parent>
   <groupId>org.exoplatform.addons.crowdin</groupId>
   <artifactId>crowdin-services</artifactId>
-  <version>1.0.x-SNAPSHOT</version>
+  <version>5.0.x-SNAPSHOT</version>
   <packaging>jar</packaging>
   <name>Crowdin Services</name>
   <description>Crowdin Services</description>
@@ -46,7 +46,7 @@
       <artifactId>exo.core.component.security.core</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.gatein.portal</groupId>
+      <groupId>org.exoplatform.gatein.portal</groupId>
       <artifactId>exo.portal.component.portal</artifactId>
     </dependency>
   </dependencies>
