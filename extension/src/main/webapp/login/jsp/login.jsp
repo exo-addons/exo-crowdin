@@ -166,14 +166,7 @@
                 <div>
                     <a href="<%= contextPath + forgotPasswordPath %>" title="<%=res.getString("gatein.forgotPassword.loginLinkTitle")%>"><%=res.getString("gatein.forgotPassword.loginLinkTitle")%></a>
                 </div>
-                <div>
-                    <h3>Information:</h3>
-                    <ul>
-                        <li>This server has been updated to eXo Platform 4.4</li>
-                        <li>More information, please visit <a target="_blank" href="http://community.exoplatform.com/portal/g/:spaces:translations/translations">Community</a></li>
-                        </li>
-                    </ul>
-                </div>
+
                 <div id="UIPortalLoginFormAction" class="loginButton">
                     <button class="button" tabindex="4"  onclick="login();"><%=res.getString("portal.login.Signin")%></button>
                 </div>
