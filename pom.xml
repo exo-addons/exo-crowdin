@@ -23,7 +23,7 @@
   <parent>
     <artifactId>addons-parent-pom</artifactId>
     <groupId>org.exoplatform.addons</groupId>
-    <version>10-M01</version>
+    <version>10</version>
     <relativePath />
   </parent>
   <groupId>org.exoplatform.addons.crowdin</groupId>
@@ -45,7 +45,7 @@
   </scm>
   <properties>
     <!-- Platform Project Dependencies -->
-    <org.exoplatform.platform.version>5.1.x-SNAPSHOT</org.exoplatform.platform.version>
+    <org.exoplatform.platform.version>5.2.x-SNAPSHOT</org.exoplatform.platform.version>
   </properties>
 
   <dependencyManagement>
