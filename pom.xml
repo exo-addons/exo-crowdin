@@ -45,15 +45,16 @@
   </scm>
   <properties>
     <!-- Platform Project Dependencies -->
-    <org.exoplatform.platform.version>6.0.x-SNAPSHOT</org.exoplatform.platform.version>
+    <org.exoplatform.gatein.portal.version>6.0.x-SNAPSHOT</org.exoplatform.gatein.portal.version>
   </properties>
 
   <dependencyManagement>
     <dependencies>
+      <!-- Import versions from projects -->
       <dependency>
-        <groupId>org.exoplatform.platform</groupId>
-        <artifactId>platform</artifactId>
-        <version>${org.exoplatform.platform.version}</version>
+        <groupId>org.exoplatform.gatein.portal</groupId>
+        <artifactId>exo.portal.parent</artifactId>
+        <version>${org.exoplatform.gatein.portal.version}</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
