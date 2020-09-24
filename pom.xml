@@ -45,7 +45,7 @@
   </scm>
   <properties>
     <!-- Platform Project Dependencies -->
-    <org.exoplatform.gatein.portal.version>6.0.x-SNAPSHOT</org.exoplatform.gatein.portal.version>
+    <org.exoplatform.gatein.portal.version>6.0.0</org.exoplatform.gatein.portal.version>
   </properties>
 
   <dependencyManagement>
