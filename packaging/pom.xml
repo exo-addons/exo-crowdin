@@ -23,11 +23,11 @@
   <parent>
     <artifactId>crowdin-addon</artifactId>
     <groupId>org.exoplatform.addons.crowdin</groupId>
-    <version>6.2.x-SNAPSHOT</version>
+    <version>6.2.0</version>
   </parent>
   <groupId>org.exoplatform.addons.crowdin</groupId>
   <artifactId>crowdin-packaging</artifactId>
-  <version>6.2.x-SNAPSHOT</version>
+  <version>6.2.0</version>
   <packaging>pom</packaging>
   <name>Crowdin Packaging</name>
   <description>Crowdin Packaging</description>
