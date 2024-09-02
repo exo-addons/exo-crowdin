@@ -29,10 +29,17 @@
   <dependencySets>
     <dependencySet>
       <useProjectArtifact>false</useProjectArtifact>
-      <outputDirectory>/</outputDirectory>
+      <outputDirectory>/lib</outputDirectory>
       <outputFileNameMapping>${artifact.artifactId}${dashClassifier?}.${artifact.extension}</outputFileNameMapping>
       <includes>
         <include>org.exoplatform.addons.crowdin:crowdin-services</include>
+      </includes>
+    </dependencySet>
+    <dependencySet>
+      <useProjectArtifact>false</useProjectArtifact>
+      <outputDirectory>/webapps</outputDirectory>
+      <outputFileNameMapping>crowdin.${artifact.extension}</outputFileNameMapping>
+      <includes>
         <include>org.exoplatform.addons.crowdin:crowdin-extension</include>
       </includes>
     </dependencySet>

@@ -4,11 +4,4 @@
 	xsi:schemaLocation="http://www.gatein.org/xml/ns/gatein_resources_1_3 http://www.gatein.org/xml/ns/gatein_resources_1_3"
 	xmlns="http://www.gatein.org/xml/ns/gatein_resources_1_3">
 
-  <javascript>
-    <param>
-      <js-module>crowdinJIPT</js-module>
-      <js-path>/javascript/eXo/crowdin/crowdinJIPT.js</js-path>
-    </param>
-  </javascript>
-
 </gatein-resources>

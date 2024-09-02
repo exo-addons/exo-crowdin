@@ -23,12 +23,12 @@
   <parent>
     <artifactId>addons-parent-pom</artifactId>
     <groupId>org.exoplatform.addons</groupId>
-    <version>17-exo-M01</version>
+    <version>18-exo-M01</version>
     <relativePath />
   </parent>
   <groupId>org.exoplatform.addons.crowdin</groupId>
   <artifactId>crowdin-addon</artifactId>
-  <version>6.5.x-SNAPSHOT</version>
+  <version>7.0.x-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>Crowdin Addon</name>
   <description>Crowdin Addon</description>
@@ -45,15 +45,15 @@
   </scm>
   <properties>
     <!-- Platform Project Dependencies -->
-    <org.exoplatform.gatein.portal.version>6.5.x-exo-SNAPSHOT</org.exoplatform.gatein.portal.version>
+    <org.exoplatform.gatein.portal.version>7.0.x-exo-SNAPSHOT</org.exoplatform.gatein.portal.version>
   </properties>
 
   <dependencyManagement>
     <dependencies>
       <!-- Import versions from projects -->
       <dependency>
-        <groupId>org.exoplatform.gatein.portal</groupId>
-        <artifactId>exo.portal.parent</artifactId>
+        <groupId>io.meeds.portal</groupId>
+        <artifactId>portal.parent</artifactId>
         <version>${org.exoplatform.gatein.portal.version}</version>
         <type>pom</type>
         <scope>import</scope>

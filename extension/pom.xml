@@ -23,13 +23,16 @@
   <parent>
     <artifactId>crowdin-addon</artifactId>
     <groupId>org.exoplatform.addons.crowdin</groupId>
-    <version>6.5.x-SNAPSHOT</version>
+    <version>7.0.x-SNAPSHOT</version>
   </parent>
   <groupId>org.exoplatform.addons.crowdin</groupId>
   <artifactId>crowdin-extension</artifactId>
-  <version>6.5.x-SNAPSHOT</version>
+  <version>7.0.x-SNAPSHOT</version>
   <packaging>war</packaging>
   <name>Crowdin Extension</name>
   <description>Crowdin Extension</description>
+  <build>
+    <finalName>crowdin</finalName>
+  </build>
 
 </project>
