@@ -1,6 +1,9 @@
 <script type="text/javascript">
     window._jipt = [];
-    _jipt.push(['project', '<%=System.getProperty('exo.crowdin.project','meeds');%>']);
+    _jipt.push(['project', '<%=System.getProperty('exo.crowdin.project','exo-platform');%>']);
+
+    require(['SHARED/jipt'], () => {
+
+    });
 </script>
-<script type="text/javascript" src="//cdn.crowdin.com/jipt/jipt.js"></script>
 
