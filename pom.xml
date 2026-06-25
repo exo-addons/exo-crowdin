@@ -23,12 +23,12 @@
   <parent>
     <artifactId>addons-exo-parent-pom</artifactId>
     <groupId>org.exoplatform.addons</groupId>
-    <version>19-RC01</version>
+    <version>20</version>
     <relativePath />
   </parent>
   <groupId>org.exoplatform.addons.crowdin</groupId>
   <artifactId>crowdin-addon</artifactId>
-  <version>7.1.x-SNAPSHOT</version>
+  <version>7.2.x-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>Crowdin Addon</name>
   <description>Crowdin Addon</description>
@@ -45,7 +45,7 @@
   </scm>
   <properties>
     <!-- Platform Project Dependencies -->
-    <io.meeds.social.version>7.1.x-exo-SNAPSHOT</io.meeds.social.version>
+    <io.meeds.social.version>7.2.x-exo-SNAPSHOT</io.meeds.social.version>
   </properties>
 
   <dependencyManagement>
