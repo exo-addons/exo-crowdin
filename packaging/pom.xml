@@ -25,6 +25,10 @@
     <groupId>org.exoplatform.addons.crowdin</groupId>
     <version>7.2.x-SNAPSHOT</version>
   </parent>
+  <properties>
+    <!-- Generate and publish the CycloneDX SBOM of the zip once the parent POM carries the generation (maven-parent-pom 30-M04) -->
+    <sbom.skip>false</sbom.skip>
+  </properties>
   <groupId>org.exoplatform.addons.crowdin</groupId>
   <artifactId>crowdin-packaging</artifactId>
   <packaging>pom</packaging>
